@@ -14,6 +14,7 @@ export { default as LanguageIcon } from "./Language";
 export { default as LiquidityIcon } from "./Liquidity";
 export { default as ListingIcon } from "./Listing";
 export { default as LogoIcon } from "./Logo";
+export { default as LogoIcon2 } from "./Logo2";
 export { default as MediumIcon } from "./Medium";
 export { default as MoonIcon } from "./Moon";
 export { default as MoreIcon } from "./More";
