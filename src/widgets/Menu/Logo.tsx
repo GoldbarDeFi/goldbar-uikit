@@ -42,7 +42,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
 
   return (
     <Flex>
-      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
+      <MenuButton aria-label="Toggle menu" onClick={togglePush}>
         {isPushed ? (
           <HamburgerCloseIcon width="24px" color="textSubtle" />
         ) : (
@@ -50,11 +50,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="SaltSwap home page">
+        <StyledLink as="a" href={href} aria-label="GoldbarSwap home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="SaltSwap home page">
+        <StyledLink to={href} aria-label="GoldbarSwap home page">
           {innerLogo}
         </StyledLink>
       )}
